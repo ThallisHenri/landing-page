@@ -60,15 +60,30 @@ span{
 }
 p{
     line-height: 20px;
-    max-width: 500px;
+    max-width: 1000px;
     text-align: justify;
     font-weight: bold;
 }
 img{
-    max-width: 500px;
-    min-width: 350px;
-    background-size: cover;
+    margin-top: 50px;
 
+}
+#image{
+    width: 80vw;
+    height: 500px;
+    background-image: url(images/alex-kotliarskyi-ourQHRTE2IM-unsplash.jpg);
+    background-position: top center;
+    background-attachment: fixed;
+    padding-top: 20px;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+#image > p {
+    width: 200px;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.358);
+    padding: 10px;
+    border-radius: 10px;
 }
 form > input {
     border-radius: 10px;
