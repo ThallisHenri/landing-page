@@ -69,21 +69,44 @@ img{
 
 }
 #image{
-    width: 80vw;
+    max-width: 1200px;
     height: 500px;
-    background-image: url(images/alex-kotliarskyi-ourQHRTE2IM-unsplash.jpg);
+    background-image: url(images/alex-kotliarskyi-ourQHRTE2IM-unsplash-mod.jpg);
     background-position: top center;
     background-attachment: fixed;
+    background-size: cover;
     padding-top: 20px;
     padding-left: 15px;
     border-radius: 10px;
+    position: relative;
+    display: flex;
+     justify-content: center;
+    align-items: center;
 }
-#image > p {
-    width: 200px;
-    text-align: justify;
-    background-color: rgba(0, 0, 0, 0.358);
+#image > h2 {
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
     padding: 10px;
     border-radius: 10px;
+    font-size: larger;
+}
+#image > a >  input:hover{
+    background-color: rgb(170, 15, 159);
+    transition: 0.5s;
+}
+
+#image > a >  input {
+    position: absolute;
+    top: 60%;
+    left: 46%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(225, 219, 219, 0.214);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    
 }
 form > input {
     border-radius: 10px;
