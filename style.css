@@ -34,7 +34,7 @@ li:hover{
     background-color: rgb(170, 15, 159);
     color: white;
 }
-a{
+ul > a{
     text-decoration: none;
     color: white;
 }
@@ -46,6 +46,9 @@ main{
     display: block;
     flex-direction: row;
     margin-top: 50px;
+}
+section > p {
+    color: rgb(205, 204, 204);
 }
 article{
     margin: 15px;
@@ -80,7 +83,7 @@ img{
     border-radius: 10px;
     position: relative;
     display: flex;
-     justify-content: center;
+    justify-content: center;
     align-items: center;
 }
 #image > h2 {
@@ -93,7 +96,7 @@ img{
 }
 #image > a >  input:hover{
     background-color: rgb(170, 15, 159);
-    transition: 0.5s;
+    transition: 0.5;
 }
 
 #image > a >  input {
@@ -121,3 +124,53 @@ form > input {
     color: white;
     background-color: rgb(170, 15, 159);
 } 
+
+#navigators_buttons > div{
+    background-color: white;
+    width: 120px;
+    height: 150px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+    border: 3px solid rgba(159, 159, 159, 0.546);
+    color: black;
+}
+
+#navigators_buttons > div:hover{
+    border: 3px solid rgb(170, 15, 159);
+}
+
+#navigators_buttons > div > h3{
+    padding-left: 10px;
+    padding-top: 40px;
+}
+#navigators_buttons > div > p{
+    padding-left: 5px;
+    color: rgb(81, 80, 80);
+}
+section#img {
+    margin: auto;
+    background-image: url(images/photo-1611265023526-707d240623af.png);
+    width: 500px;
+    height: 400px;
+    background-position: bottom center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section#img > p{
+    text-align: center;
+}
+section#img > picture > a >  input {
+    position: absolute;
+    top: 60%;
+    left: 42%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(177, 177, 177, 0.214);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    
+}
