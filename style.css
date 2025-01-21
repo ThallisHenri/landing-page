@@ -151,7 +151,7 @@ form > input {
 section#img {
     margin: auto;
     background-image: url(images/photo-1611265023526-707d240623af.png);
-    width: 500px;
+    max-width: 500px;
     height: 400px;
     background-position: bottom center;
     position: relative;
